@@ -1,0 +1,81 @@
+
+html, body {
+	height: 100%;
+}
+
+header {
+	width: 75%;
+	height: 200px;
+	font-family: sans-serif;
+	font-size: 21px;
+	margin: auto;
+	padding: 25px 20px;
+
+}
+
+header a:link {
+	text-decoration: none;
+	color: hotpink;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+header a:visited {
+	color: hotpink;
+}
+
+.theend {
+	text-align: right;
+}
+
+.bigOne {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 120px;
+	margin-right: 100px;
+}
+
+.theSize {
+	padding: 20px;
+	flex-basis: 25%;
+	box-sizing: border-box;
+}
+
+.theSize img {
+	width: 145px;
+	vertical-align: middle;
+}
+
+.lastOne {
+	height: 30px;
+	width: 100%;
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+
+.moveIt {
+	text-align: center;
+	display: inline-block;
+	padding-right: 20px;
+	font-family: sans-serif;
+	font-size: 12px
+}
+
+.dontEven {
+	text-align: center;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 12px
+}
+
+
+@media (max-width: 350px) {
+	header{
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+	}
+}
